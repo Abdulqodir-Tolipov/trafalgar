@@ -1,0 +1,391 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Mulish', sans-serif;
+}
+
+.container {
+	width: 1300px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 0 10px;
+}
+
+.site-nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 140px;  
+}
+
+.site-nav-list {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+	width: 550px;
+}
+
+.site-nav-item a {
+	text-decoration: none;
+	color: #1F1534;
+	opacity: 0.5;
+	font-size: 18px;
+	line-height: 23px;
+}
+
+.active a {
+	opacity: 1;
+	font-weight: bold;
+}
+
+/* Hlethcare section*/
+
+.site-body {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 100px;
+}
+
+.text {
+	width: 420px;
+}
+
+.site-body .heading {
+	font-size: 48px;
+	line-height: 56px;
+}
+
+.site-body .paragraph {
+	font-weight: 300;
+	font-size: 21px;
+	line-height: 32px;
+	color: #7D7987;
+}
+
+.site-body .button {
+	display: inline-block;
+	font-weight: bold;
+	font-size: 18px;
+	text-decoration: none;
+	color: white;
+	background-color: #458FF6;
+	border: 2px solid #458FF6;
+	padding: 15px 35px;
+	border-radius: 55px;
+	margin-top: 45px;
+	transition: background-color 0.3s ease,
+				color 0.3s ease;
+
+
+}
+
+.site-body .button:hover {
+	background-color: white;
+	color: #458FF6;
+}
+
+
+/* Servise section */
+
+.servise-section-heading .heading {
+	text-align: center;
+	font-size: 36px;
+	line-height: 56px;
+	margin-top: 100px;
+}
+
+.servise-section-heading hr {
+	width: 56px;
+	height: 2px;
+	background: #000000;
+	border-radius: 5px;
+}
+
+.servise-section-heading .paragraph {
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 30px;
+	text-align: center;
+	color: #7D7987;
+}
+
+.servise-section-body .heading {
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 56px;
+}
+
+.servise-section-body .paragraph {
+	color: #7D7987;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 30px;
+	/*text-align: center;*/
+
+}
+
+.unordered-list {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	width: 1200px;
+	height: 700px;
+	padding: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+
+}
+
+.list-items {
+	justify-content: center;
+	align-items: center;
+	list-style-type: none;
+	width: 350px;
+	height: 354px;
+	box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+	border-radius: 20px;
+	margin-top: 30px;
+	margin-right: 50px;
+	margin: 10px;
+	padding: 0px;
+}
+
+.list-items img {
+	margin-top: 54px;
+	margin-left: 37px;
+}
+
+.list-items .heading {
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 56px;
+	margin-left: 39px;
+}
+
+.list-items .paragraph {
+	color: #7D7987;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 28px;
+	width: 266px;
+	height: 84;
+	margin-bottom: 46px;
+	margin-left: 35px;
+}
+
+.link {
+	width: 200px;
+	height: 60px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 70px;
+	margin-bottom: 30px;
+}
+
+.link a {
+	border: solid  2px #458FF6;
+	border-radius: 55px;
+	color: #458FF6;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 60px;
+	font-weight: 700px;
+	text-align: center;
+	padding: 15px 35px;
+	text-decoration: none;
+	transition: background-color 0.3s ease,
+				color 0.3s ease;
+
+}
+
+.link a:hover {
+	color: #fff;
+	background-color: #458FF6;
+}
+
+/* Leading healthcare */
+
+.leading_healthcare-body {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 200px;
+}
+
+.leading-img {
+	margin-right: 70px;
+}
+
+.leading_healthcare-text {
+	width: 400px;
+	height: 388;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	margin-bottom: 100px;
+}
+
+.leading_healthcare-body .heading {
+	font-size: 36px;
+	line-height: 56px;
+	color: #000000;
+}
+
+.leading_healthcare-body hr {
+	width: 56px;
+	height: 2px;
+	background: #000000;
+	border-radius: 10px;
+	margin-left: 0px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.leading_healthcare-body .paragraph {
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 30px;
+	color: #7D7987;
+	margin-bottom: 40px;
+}
+
+.link-button {
+	width: 300px;
+	height: 60px;
+	border: solid  2px #458FF6;
+	border-radius: 55px;
+	color: #458FF6;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 60px;
+	font-weight: 700px;
+	text-align: center;
+	padding: 15px 35px;
+	text-decoration: none;
+	transition: background-color 0.3s ease,
+				color 0.3s ease;
+
+}
+
+.link-button:hover {
+	color: #fff;
+	background-color: #458FF6;
+}
+
+
+/* Download section */
+
+.download-body {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 150px;
+}
+
+.download-section-text {
+	width: 360px;
+	height: 388;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 100px;
+}
+
+.download-section-text h1 {
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 48px;
+	color: #000000;
+}
+
+.download-section-text hr {
+	width: 56px;
+	height: 2px;
+	background: #000000;
+	border-radius: 6px;
+	margin-left: 0px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+
+}
+
+.download-section-text p {
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 30px;
+	color: #7D7987;
+	margin-bottom: 40px;
+}
+
+.link-button-1 {
+	width: 300px;
+	height: 60px;
+	border: solid  2px #458FF6;
+	border-radius: 55px;
+	color: #458FF6;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 60px;
+	font-weight: 700px;
+	text-align: center;
+	padding: 15px 35px;
+	text-decoration: none;
+	transition: background-color 0.3s ease,
+				color 0.3s ease;
+}
+
+.link-button-1:hover {
+	color: #fff;
+	background-color: #458FF6;
+}
+
+/* Customor section */
+
+.customor-section {
+	border: 1px solid black;
+	width: 1120px;
+	height: 425px;
+	background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+	border-radius: 24px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.info-wrapper {
+	display: flex;
+	justify-content: space-between;
+	border: 1px solid black;
+}
+
+
+.avatar {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid black;
+}
+
+
+.customor-section h1 {
+	text-align: center;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 48px;
+}
+
+.customor-section hr {
+	width: 56px;
+	height: 2px;
+	background: #FFFFFF;
+	border-radius: 6px;
+}
+
+.info-wrapper img {
+	
+}
+
